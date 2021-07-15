@@ -1,0 +1,209 @@
+*{
+    padding:0;
+    margin:0;
+}
+/*home image*/
+.home{
+    background-size:cover; 
+    background-position: center;
+    box-sizing:border-box;
+}
+/*Looki into */
+.look-into
+{
+    background-color:yellow;
+    height:100px;
+    
+}
+
+/*Home image*/
+.homeImage
+{
+    width:auto;
+    height: 800px;
+}
+body{
+    font-family: sans-serif;
+    animation:backgroundImages 6s  infinite;
+} 
+.company_name{
+
+    background-color:yellow;
+    color:blue;
+    font-size:50px;
+    font-style:bold;
+    text-align:center;
+    animation:look 6s infinite;
+}
+/*change title image*/
+@keyframes look
+{
+    from{background-color:yellow;color:blue;}
+    to{background-color:green;color:yellow;}
+}
+
+.Menu-bar{
+    background:yellow;
+    text-align: center;
+}
+
+.Menu-bar ul{
+    display:inline-flex;
+    list-style: none;
+    color:green;
+}
+
+.Menu-bar ul li {
+width: 110px;
+margin: 15px;
+padding:5px;
+}
+
+
+.Menu-bar ul li a{
+    text-decoration:none;
+    color:green;
+}
+
+.Menu-bar ul li a:hover{
+    background:blue;
+    border-radius:5px;
+    color:yellow;
+    padding:10px;
+}
+.sub-menu-1
+{
+    display:none;
+}
+.Menu-bar ul li:hover .sub-menu-1{
+    display:block;
+    position:absolute;
+    background:yellow;
+    margin-top:9px;
+    margin-left:-15px;
+}
+
+.Menu-bar ul li:hover .sub-menu-1 ul{
+    display:block;
+    margin:2px;
+}
+
+.Menu-bar ul li:hover .sub-menu-1 ul li {
+    width:150px;
+    padding:10px;
+    border-bottom:1px dotted green;
+    background:transparent;
+    border-radius: 0px;
+    text-align:center;
+}
+
+.Menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom:none;
+}
+
+/*sub-menu-2*/
+
+.sub-menu-2
+{
+    display:none;
+}
+
+.Menu-bar ul li:hover .sub-menu-2{
+    display:block;
+    position:absolute;
+    background:yellow;
+    margin-top:9px;
+    margin-left:-15px;
+}
+
+
+.Menu-bar ul li:hover .sub-menu-2 ul{
+    display:block;
+    margin:2px;
+}
+
+
+.Menu-bar ul li:hover .sub-menu-2 ul{
+    display:block;
+    margin:2px;
+}
+.Menu-bar ul li:hover .sub-menu-2 ul li {
+    width:150px;
+    padding:10px;
+    border-bottom:1px dotted green;
+    background:transparent;
+    border-radius: 0px;
+    text-align:center;
+}
+/*Apply*/
+.client-investor-submenu
+{
+   display:none;
+}
+.apply:hover .client-investor-submenu{
+    display:block;
+    position:absolute;
+    background:yellow;
+    margin-top:9px;
+    margin-left:-15px;
+}
+.apply:hover .client-investor-submenu ul{
+    display:block;
+}
+.apply:hover .client-investor-submenu ul li{
+    width:150px;
+    padding:10px;
+    border-bottom:1px dotted green;
+    background:transparent;
+    border-radius: 0px;
+    text-align:center;
+}
+#login{
+    align-content: center;
+    background-color: blue;
+    position: absolute;
+    left:600px;
+    top:280px;
+    width:402px;
+    height:400px;
+    color:yellow;
+    border-radius: 40px;
+}
+input{
+    width:400px;
+    height:50px;
+    border-radius:30px;
+    text-align: center;
+}
+button{
+    width:400px;
+    height:50px;
+    border-radius:30px;
+    color:blue;
+    background-color: yellow;
+}
+
+#signin{
+    position:absolute;
+    left:150px;
+}
+
+::placeholder{
+    color:green;
+}
+body{
+    background-image: url("customer.jpg");
+}
+
+#createAccount{
+    position:absolute;
+    left:101px;
+}
+#submit{
+    width:400px;
+    height:50px;
+    border-radius:30px;
+    color:blue;
+    background-color: yellow;
+
+}
